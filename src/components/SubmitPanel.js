@@ -13,7 +13,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
                 <Heading color='tomato'>1000 years</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Plastic Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
-                <Text color='tomato'>And you added these comments: </Text>
+                <Text color='tomato'>And reason comments: </Text>
                 <Text color="tomato">{comments}</Text>
                 <Text color="tomato">Please minimize the use of plastic</Text>
 
@@ -28,7 +28,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
                 <Heading color='tomato'>Thanks A Lot</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Paper Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
-                <Text color='tomato'>And you added these comments: </Text>
+                <Text color='tomato'>And reason comments: </Text>
                 <Text color="tomato">{comments}</Text>
                 <Text color='tomato'>Next Generations will be grateful to you</Text>
             </VStack>
@@ -41,7 +41,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
                 <Heading color='tomato'>Thanks A Lot</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Cloth Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
-                <Text color='tomato'>And you added these comments: </Text>
+                <Text color='tomato'>And reason comments: </Text>
                 <Text color="tomato">{comments}</Text>
                 <Text color='tomato'>Next Generations will be grateful to you</Text>
             </VStack>

@@ -8,7 +8,7 @@ import {
     SliderFilledTrack,
     SliderThumb,
     SliderMark,
-    Center, Textarea
+    Center, Textarea, Select
 } from '@chakra-ui/react';
 
 const Calculations = () => {
@@ -81,13 +81,18 @@ const Calculations = () => {
                                     <SliderThumb boxSize={6} />
                                 </Slider>
 
-                                <Textarea
+                                {/* <Textarea
                                     value={comments}
                                     onChange={(e) => setComments(e.target.value)}
                                     placeholder='Add your comments'
                                     borderRadius={4}
                                     mt={3}
-                                />
+                                /> */}
+
+                                <Select  color='black' placeholder='Chose Your Comment' value={comments} onChange={(e)=> setComments(e.target.value)}>
+                                    <option color='black' value='Expensive'>Expensive</option>
+                                    <option color='red' value='Capacity'>Low Capacity</option>
+                                </Select>
 
 
 
@@ -102,7 +107,7 @@ const Calculations = () => {
                 {(panel)
                     &&
                     (<SubmitPanel bagData={bagData} satisfactionValue={satisfactionValue} comments={comments} onClose={handlePanel} />)
-                    }
+                }
 
             </div>
         </FullScreenSection>

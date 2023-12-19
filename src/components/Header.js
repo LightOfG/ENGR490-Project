@@ -108,7 +108,7 @@ const Header = () => {
                   <FontAwesomeIcon icon={icon} size="2x" key={url} />
                 </a>
               ))} */}
-              <Text>Group - 1</Text>
+              <a href="https://www.un.org/sustainabledevelopment/cities/"> <Text>Group - 1</Text> </a>
             </HStack>
           </nav>
           <nav>
