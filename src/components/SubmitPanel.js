@@ -9,11 +9,15 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
 
         submitPanelContent = (
             <VStack spacing={4} w="100%">
-                <Heading  color='tomato'>Plastic bags decompose in nature in 1000 years</Heading>
+                <Heading color='tomato'>Plastic bags decompose in nature in </Heading>
+                <Heading color='tomato'>1000 years</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Plastic Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
                 <Text color='tomato'>And you added these comments: </Text>
                 <Text color="tomato">{comments}</Text>
+                <Text color="tomato">Please minimize the use of plastic</Text>
+
+
             </VStack>
         )
     }
@@ -21,7 +25,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
     else if (bagData === '2') { //PAPER BAG
         submitPanelContent = (
             <VStack spacing={4} w="100%">
-                <Heading  color='tomato'>Thanks A Lot</Heading>
+                <Heading color='tomato'>Thanks A Lot</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Paper Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
                 <Text color='tomato'>And you added these comments: </Text>
@@ -30,8 +34,6 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
             </VStack>
         )
     }
-
-
 
     else { //CLOTH BAG
         submitPanelContent = (
@@ -45,15 +47,6 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
             </VStack>
         )
     }
-
-    console.log(submitPanelContent.props)
-
-    console.log('bagData:', bagData);
-    console.log('satisfactionValue:', satisfactionValue);
-    console.log('comments:', comments);
-
-
-
 
     return (
         <Box
