@@ -28,12 +28,7 @@ const Calculations = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(bagData);
-        console.log(satisfactionValue)
-        console.log(comments)
-
         setPanel(true);
-
     }
 
 
@@ -43,11 +38,9 @@ const Calculations = () => {
             backgroundColor="#14532d"
             isDarkBackground
             p={8}
-
             spacing={8}
         >
 
-            Calculations
             <div id='calculations'>
                 <Center><Heading as='h1' id="calculations">Show your Results!</Heading></Center>
                 <VStack w="800px" p={10} alignItems='flex-start'>
@@ -60,9 +53,9 @@ const Calculations = () => {
                                 <FormLabel htmlFor='bagData' fontSize="lg">Which type of bag do you use?</FormLabel>
                                 <RadioGroup onChange={setBagData} value={bagData} id='bagData'>
                                     <Stack direction='row' mx={3}>
-                                        <Radio value='1' size="lg" mx={3}>Plastic</Radio>
-                                        <Radio value='2' size="lg" mx={3}>Second</Radio>
-                                        <Radio value='3' size="lg" mx={3}>Third</Radio>
+                                        <Radio value='1' size="lg" mx={3}>Plastic Bag</Radio>
+                                        <Radio value='2' size="lg" mx={3}>Paper Bag</Radio>
+                                        <Radio value='3' size="lg" mx={3}>Cloth Bag</Radio>
                                     </Stack>
                                 </RadioGroup>
 
@@ -106,10 +99,10 @@ const Calculations = () => {
                     </Box>
 
                 </VStack>
-                {panel
+                {(panel)
                     &&
-                    (<SubmitPanel bagData={bagData} satisfactionValue={satisfactionValue} comments={comments} onClose={handlePanel} />
-                    )}
+                    (<SubmitPanel bagData={bagData} satisfactionValue={satisfactionValue} comments={comments} onClose={handlePanel} />)
+                    }
 
             </div>
         </FullScreenSection>

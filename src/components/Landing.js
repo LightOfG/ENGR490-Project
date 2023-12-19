@@ -25,7 +25,7 @@ const Landing = () => (
       </VStack>  
     </VStack> */}
 
-    <Text> PROJE HAKKINDA GENEL BILGI PARAMETRELERIMIZ NE YAPTIGIMIZ VS</Text>
+    <Text fontSize="lg"> Our aim is to minimize the use of plastic bags and increase the use of paper bags and cloth bags, which are more sustainable. Our aim is to minimize both the cost and the environmental impact of carbon emissions. To meet the demand for bags and bags, to set a certain limit on carbon emissions, to comply with legal obligations and We aim to find our objective function in the most optimal way, with restrictions such as customer satisfaction being above a certain level.</Text>
 
   </FullScreenSection>
 );
