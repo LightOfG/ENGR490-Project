@@ -9,13 +9,13 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
 
         submitPanelContent = (
             <VStack spacing={4} w="100%">
-                <Heading color='tomato'>Plastic bags decompose in nature in </Heading>
-                <Heading color='tomato'>1000 years</Heading>
+                <Heading color='tomato'>Plastic Bags Decompose In Nature In </Heading>
+                <Heading color='tomato'>1000 Years</Heading>
                 <Text fontSize="xl" color='tomato'> You are using Plastic Bag </Text>
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
-                <Text color='tomato'>And reason comments: </Text>
+                <Text color='tomato'>And Reason Comments: </Text>
                 <Text color="tomato">{comments}</Text>
-                <Text color="tomato">Please minimize the use of plastic</Text>
+                <Text color="tomato">Please Minimize The Use of Plastic</Text>
 
 
             </VStack>
@@ -30,7 +30,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
                 <Text color='tomato'>And reason comments: </Text>
                 <Text color="tomato">{comments}</Text>
-                <Text color='tomato'>Next Generations will be grateful to you</Text>
+                <Text color='tomato'>Next Generations Will Be Grateful To You</Text>
             </VStack>
         )
     }
@@ -43,7 +43,7 @@ const SubmitPanel = ({ bagData, satisfactionValue, comments, onClose }) => {
                 <Text color='tomato'>Your Satisfaction Value is {satisfactionValue}</Text>
                 <Text color='tomato'>And reason comments: </Text>
                 <Text color="tomato">{comments}</Text>
-                <Text color='tomato'>Next Generations will be grateful to you</Text>
+                <Text color='tomato'>Next Generations Will Be Grateful To You</Text>
             </VStack>
         )
     }

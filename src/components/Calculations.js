@@ -91,7 +91,7 @@ const Calculations = () => {
 
                                 <Select  color='black' placeholder='Chose Your Comment' value={comments} onChange={(e)=> setComments(e.target.value)}>
                                     <option color='black' value='Expensive'>Expensive</option>
-                                    <option color='red' value='Capacity'>Low Capacity</option>
+                                    <option color='red' value='Insufficient Bag Capacity'>Insufficient Bag Capacity</option>
                                 </Select>
 
 
