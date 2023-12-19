@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ENGR490-Project/static/css/main.f855e6bc.css",
-    "main.js": "/ENGR490-Project/static/js/main.e6825009.js",
-    "static/js/787.a3d1703a.chunk.js": "/ENGR490-Project/static/js/787.a3d1703a.chunk.js",
-    "index.html": "/ENGR490-Project/index.html",
-    "main.f855e6bc.css.map": "/ENGR490-Project/static/css/main.f855e6bc.css.map",
-    "main.e6825009.js.map": "/ENGR490-Project/static/js/main.e6825009.js.map",
-    "787.a3d1703a.chunk.js.map": "/ENGR490-Project/static/js/787.a3d1703a.chunk.js.map"
+    "main.css": "/ENGR490-Project/group-1/static/css/main.f855e6bc.css",
+    "main.js": "/ENGR490-Project/group-1/static/js/main.f973841a.js",
+    "static/js/787.a3d1703a.chunk.js": "/ENGR490-Project/group-1/static/js/787.a3d1703a.chunk.js",
+    "index.html": "/ENGR490-Project/group-1/index.html",
+    "main.f855e6bc.css.map": "/ENGR490-Project/group-1/static/css/main.f855e6bc.css.map",
+    "main.f973841a.js.map": "/ENGR490-Project/group-1/static/js/main.f973841a.js.map",
+    "787.a3d1703a.chunk.js.map": "/ENGR490-Project/group-1/static/js/787.a3d1703a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.e6825009.js"
+    "static/js/main.f973841a.js"
   ]
 }
